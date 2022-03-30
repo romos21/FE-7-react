@@ -8,7 +8,6 @@ function Selectors ({childrenSelectors, setChildrenSelectors}) {
         const childrenSelectorsTmp = childrenSelectors;
         childrenSelectorsTmp[index] = Number(value);
         setChildrenSelectors(childrenSelectorsTmp);
-        console.log("childrenSelectors: ", childrenSelectors);
     }
 
     return childrenSelectors.map((value, index) =>
